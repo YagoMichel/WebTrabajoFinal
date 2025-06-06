@@ -13,4 +13,8 @@ public class homeController {
     public String carreras() {
         return "listado-carrera";
     }
+    @GetMapping("/aspirantes")
+    public String aspirantes() {
+        return "listado_aspirantes";
+    }
 }
