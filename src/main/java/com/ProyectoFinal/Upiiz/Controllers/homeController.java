@@ -9,4 +9,8 @@ public class homeController {
     public String home() {
         return "index";
     }
+    @GetMapping("/carreras")
+    public String carreras() {
+        return "listado-carrera";
+    }
 }
